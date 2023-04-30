@@ -1,3 +1,5 @@
+package homeWork1;
+
 import java.util.Scanner;
 
 public class Main {
@@ -29,21 +31,21 @@ public class Main {
 
       //  2. Написать и протестировать функции преобразования:
 
-//        int x = 1;
-//        String y = String.valueOf((int) x);
+//        double x = 1.123;
+//        String y = String.valueOf((int)x);
 //        System.out.println(y);
 
-//        float x = 123.2f;
-//        String y = String.valueOf((float) x);
+//        double x = 123.2;
+//        String y = String.valueOf(x);
 //        System.out.println(y);
 
-//        String st = "123";
-//        int x = Integer.parseInt((String) st);
-//        System.out.println(x);
+        String st = "123";
+        int x = Integer.parseInt(st);
+        System.out.println(x);
 
-//        String st = "1234.34";
-//        float x = Float.parseFloat((String) st);
-//        System.out.println(x);
+        String st1 = "1234.34";
+        float x1 = Float.parseFloat(st1);
+        System.out.println(x1);
 
         
     }
